@@ -1,0 +1,2 @@
+1) Hold down the arrow button to move automatically.
+2) Reorder files by dragging.

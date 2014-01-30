@@ -1,0 +1,150 @@
+01-03-2014
+Change Log:
+Completes:
+    Completed TD:#36, OptPacker now throws an OptPackException if passed null Pointer.
+Changes:
+    Added OptPackException in OptPacker.
+    Created renamer.shared package.
+    Created renamer.bridge package.
+    Created renamer.client package.
+    Created renamer.server package.
+    Deleted renamer.exceptions package.
+    Moved renamer.time to renamer.shared.time.
+    Moved renamer.logging to renamer.shared.logging.
+    Moved renamer.objects to renamer.shared.objects.
+    Moved renamer.xml to renamer.shared.xml.
+    Moved renamer.file to renamer.shared.file.
+    Moved renamer.gui to renamer.bridge.gui.
+    Moved renamer.gui.main to renamer.client.main.
+    Moved renamer.gui.options to renamer.client.options.
+    Moved renamer.lastaccessed to renamer.server.ladt.
+    Moved renamer.tvdb to renamer.server.tvdb.
+    Moved renamer.options to renamer.server.options.
+    Moved renamer.util to renamer.server.util.
+    
+
+01-02-2014
+Change Log:
+Completes:
+    Completed TD:#15, Created OptionsHandler Class.
+    Completed TD:#32, Writes Logs To Disk.
+    Completed TD:#35, The Options are no longer a serialized object.
+Removals:
+    Removed TD:#14, RTime Packer Class is not Needed.
+Changes:
+    Added OptionsHandler Class.
+    Added XMLParser Class.
+    Added FileData Class.
+    Added TVDBData Class.
+    Added renamer.tvdb package.
+    Added Javadoc and Logging to TVHandler Class.
+    Added Javadoc and Logging to ShowHandler Class.
+    Added Javadoc and Logging to OptionsHandler Class.
+    Added Javadoc and Logging to FileOptions Class.
+    Added Javadoc and Logging to FileSys Class.
+    Added Javadoc to XMLParser Class.
+    Added Javadoc to FileData Class.
+    Added Javadoc to TVDBData Class.
+    Moved XMLHelper to renamer.util for The Moment.
+    Moved OptionsHandler to renamer.options.
+    Moved TVDBScraper to renamer.tvdb.
+    Moved TVHandler to renamer.tvdb.
+    Moved ShowHandler to renamer.tvdb.
+    Moved FileSys to renamer.tvdb.
+    Moved PathUt to renamer.file.
+    Deleted RTime Packer Class.
+    Deleted renamer.xml.handlers package.
+    Deleted renamer.packers package.
+    Changed Name of ConstantData to OptionsData.
+
+12-30-2013
+Change Log:
+Completes:
+Old List:
+    Completed TD:#29, Made XML Saver class to save XML Files.
+    Completed TD:#36, Revised the TO DO List.
+New List:
+    Completed TD:#37, Make Packer into an Abstract class (DefaultPacker).
+Changes:
+    Added Javadoc to XMLElement Class.
+    Added Javadoc to XMLOb Class.
+    Changed the name of XMLOb to XMLFile.
+    Added Javadoc and basic Logging to XMLSaver Class.
+    Added OptPacker Class.
+    Added Javadoc to OptPacker Class.
+    Added RTimePacker Class.
+    Added DefaultPacker Class.
+    Added Javadoc to RTimePacker Class.
+    
+
+12-29-2013
+Change Log:
+Fixes:
+    Fixed KB:#1, Somehow fixed itself.
+    Fixed KB:#3, Renames files when the series has a ':' in the name.
+    Fixed KB:#4, la.dt file saves correctly now when a show is first scraped.
+Completes:
+    Completed TD:#1, feature to check for re-scrape times, default is One day.
+    Completed TD:#26, Created logger and logs to the console.
+    Completed TD:#31, Created cancel button on SetSeriesForm.
+Changes:
+    Added the Logs class so that Logging can be done. Logging is sent to the console for now.
+    Added LogFormatter class to format the Logs in a specific manner.
+    Added Javadoc to GUIHelper.
+    Added Javadoc and Logs to LastAccess, and by extension Ladt.
+    Changed name of FileSys To FileOptions.
+    Added Javadoc and Logs to XMLHelper.
+    Added Javadoc to Logs.
+    Added Javadoc to LogFormatter.
+    Added Javadoc and Logs to TVDBScraper.
+    Added Different FileSys Class.
+    Added Javadoc and Logs to FileSys.
+    Added XMLSaver Class.
+    Added XMLOb Class.
+    Added XMLElement Class.
+
+12-24-2013
+Change Log:
+    Added Javadoc to PathUt Class.
+    Moved some files.
+    Created manual rename GUI.
+    Added RTime Class, LastAccess Class, and a few others.
+    Added Javadoc to RTime.
+
+12-23-2013
+Change Log:
+    Added all of the subtitle extentions as filters supported by plex to ConstantData.
+    Added option to rename single selected episodes.
+    Finished javadoc in OptClass.
+    Added Javadoc for Episodes class.
+    Added Javadoc for SeriesBuilder class.
+    Added Javadoc for Series Class.
+    Added Javadoc for Season Class.
+
+12-19-2013
+Change Log:
+    Added button in options to reset user options back to the defaults.
+    
+12-17-2013
+Change Log:
+Fixes:
+    Fixed Bug in Mac version that did not show file chooser correctly.
+Changes:
+    Added Javadoc to ConstantData.
+    Started Javadoc on OptClass.
+
+12-16-2013
+Change Log:
+    Made Apply button enable/disable if change to default directory.
+    rearranged OptClass and added static fields.
+    Added subtitle option panel.
+    Added option to display subtitles or videos, filters accordingly.
+    Added option to choose subtitle language(and tag).
+    Added possibility for future use of custom tags.
+    Allowed for renaming both videos and subtitle files based on preferences.
+
+12-11-2013
+Change Log:
+    Connected the options and configured first option of default directory.
+    Added close button to the options form.
+    made options save serializable and deleted XML parsers for options.

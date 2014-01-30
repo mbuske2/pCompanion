@@ -1,0 +1,37 @@
+(Revised 12/30/2013) TO DO:
+1) Build custom check time into options.
+2) Finish Javadoc For The Project.
+3) Set up Logging Fine messages.
+4) Move Multiple Files in lists (File one).
+5) Hold the arrow button to move automatically.
+6) Reorder files by dragging.
+7) Favorite shows list.
+8) Manual Refresh for TVDB Scrape.
+9) Allow for typing in directory -> auto update the file list, font red if doesn't exist.
+10) Allow for pulling/downloading subtitles from opensubtitles.
+11) Change Lists to jlists with the default model.
+12) Change the way errors are logged.
+13) Change the way Exceptions are caught.
+//14) Complete RTimePacker Class.//
+//15) Create Handler to Parse Options.xml.//
+16) Create Req List for Version 0.2A
+17) Add Message Dialogs.
+18) List default filters in options. (Videos)
+19) Allow for custom filters in options. (Videos)
+20) List default filters in options. (Subs)
+21) Allow for custom filters in options. (Subs)
+22) Make filter defaults checkboxes/booleans in a hashmap.
+23) Use custom tags (for subtitles).
+24) Create Help documentation.
+25) Exit menu option.
+26) Add move to parent folder option.
+27) Account for episodes that have more than one part in one or two split apart.
+28) Make language option for TVDB scraper (like subtitles).
+30) Manual rename option.
+//32) Write logs to a file on the disk.//
+33) Add logging to all classes that need it.
+34) Log finer things.
+//35) Change from serialization.//
+//36) Create exception for OptPacker initialization.//
+//37) Make Packer into an abstract class.//
+38) Remove Logging with my Logger in XMLSaver.

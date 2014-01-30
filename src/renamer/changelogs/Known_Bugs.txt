@@ -1,0 +1,8 @@
+KNOWN BUGS:
+//1) when the amount in the file queue is uneven weird renaming occurs?//
+2) when a file already exists renaming bug
+//3) wont rename with : in the file path, make replacement for that as well//
+//4) if the show has never been scraped before the Ladt file will not be created.//
+5) Errors don't always leave the program in a working state. No errors have been observed however.
+6) Check The Simpsons season 2 e09 for this bug. weird title, or tvdb issue?
+7) Option Load in The Languages for subtitles.

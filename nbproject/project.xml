@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>pCompanion</name>
+            <explicit-platform explicit-source-supported="true"/>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>checkboxes</word>
+            <word>ConstantData</word>
+            <word>DateFormat</word>
+            <word>DefaultPacker</word>
+            <word>doesn</word>
+            <word>dt</word>
+            <word>FileData</word>
+            <word>FileOptions</word>
+            <word>FileSys</word>
+            <word>GUI</word>
+            <word>GUIHelper</word>
+            <word>hashmap</word>
+            <word>javadoc</word>
+            <word>JDK</word>
+            <word>jlists</word>
+            <word>KB</word>
+            <word>Ladt</word>
+            <word>LastAccess</word>
+            <word>lastaccessed</word>
+            <word>LogFormatter</word>
+            <word>Namespace</word>
+            <word>opensubtitles</word>
+            <word>OptClass</word>
+            <word>OptionsData</word>
+            <word>OptionsHandler</word>
+            <word>OptPacker</word>
+            <word>OptPackException</word>
+            <word>PathUt</word>
+            <word>renamer</word>
+            <word>RTime</word>
+            <word>RTimePacker</word>
+            <word>SeriesBuilder</word>
+            <word>SetSeriesForm</word>
+            <word>ShowHandler</word>
+            <word>TD</word>
+            <word>TVDB</word>
+            <word>TVDBData</word>
+            <word>TVDBScraper</word>
+            <word>TVHandler</word>
+            <word>util</word>
+            <word>XML</word>
+            <word>xml'</word>
+            <word>XMLElement</word>
+            <word>XMLFile</word>
+            <word>XMLHelper</word>
+            <word>XMLOb</word>
+            <word>XMLParser</word>
+            <word>XMLSaver</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>

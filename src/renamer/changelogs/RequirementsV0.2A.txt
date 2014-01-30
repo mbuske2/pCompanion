@@ -1,0 +1,11 @@
+1) Can Rename Manually.
+2) Can Rename individually.
+3) Everything must be documented.
+4) renamer.util must not rely on renamer.options.
+5) XMLHelper does not belong in renamer.util.
+6) Split into client/server/shared packages.
+7) Must Have Exceptions.
+8) Client and Server must never connect.
+9) Can download subtitles.
+10) Can add padding file if need be.
+11) 
